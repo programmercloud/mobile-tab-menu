@@ -19,9 +19,10 @@ body {
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0 8px 50px -15px rgba(0, 0, 0, 0.15),
-    0 0px 5px -1px rgba(0, 0, 0, 0.1);
+    0 0 5px -1px rgba(0, 0, 0, 0.1);
   border: 5px solid #fff;
 }
+
 .container p {
   font-family: Calibri, sans-serif;
   display: block;
@@ -49,7 +50,7 @@ body {
   position: relative;
   width: 45px;
   height: 45px;
-  background: white;
+  background: #fff;
   border-radius: 50%;
   transform: translate(0, 5px);
   transition: transform 0.3s ease;
@@ -67,11 +68,12 @@ body {
 .back {
   width: 100%;
   position: absolute;
-  background: white;
+  background: #fff;
   height: 45px;
   bottom: 0;
   z-index: 0;
 }
+
 .back::after {
   content: "";
   display: block;
@@ -108,8 +110,4 @@ body {
 
 #location:checked ~ .back::after {
   transform: translate(215px, 0);
-}
-
-#t4:checked ~ .back::after {
-  transform: translate(285px, 0);
 }
