@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Tab Menu</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>Mobile Menu</p>
+
+      <div class="bottombar">
+        <input
+          type="radio"
+          class="radio"
+          name="tap"
+          id="bookmark"
+          checked="checked"
+        />
+        <label class="round" for="bookmark">
+          <i class="fa fa-bookmark"></i>
+        </label>
+
+        <input type="radio" class="radio" name="tap" id="list" />
+        <label class="round" for="list">
+          <i class="fa fa-list-check"></i>
+        </label>
+
+        <input type="radio" class="radio" name="tap" id="settings" />
+        <label class="round" for="settings">
+          <i class="fa fa-gear"></i>
+        </label>
+
+        <input type="radio" class="radio" name="tap" id="location" />
+        <label class="round" for="location">
+          <i class="fa fa-location-dot"></i>
+        </label>
+
+        <div class="back"></div>
+      </div>
+    </div>
+  </body>
+</html>
